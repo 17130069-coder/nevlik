@@ -21,6 +21,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
 		  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/lab_1.css">
+	<link rel="stylesheet" href="css/lab_2.css">
 </head>
 
 <body>
@@ -44,7 +45,7 @@
 						<ul class="nav navbar-nav menu_nav">
 							<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
 							<li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
-							<li class="nav-item active"><a class="nav-link" href="lab_1.html">Labs</a></li>
+							<li class="nav-item active"><a class="nav-link" href="lab.html">Labs</a></li>
 							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 						</ul>
 					</div>
@@ -62,7 +63,7 @@
                   <h2>Labs</h2>
                   <div class="page_link">
                       <a href="index.html">Home</a>
-                      <a href="lab_1.html">Labs</a>
+                      <a href="lab.html">Labs</a>
                   </div>
               </div>
           </div>
@@ -112,10 +113,7 @@
 									   href="#requirement">Requirement</a>
 								</li>
 								<li class="nav-item items">
-									<a class="nav-link" data-toggle="tab" href="#user_scernario">User Scenario</a>
-								</li>
-								<li class="nav-item items">
-									<a class="nav-link" data-toggle="tab" href="#design">Design</a>
+									<a class="nav-link" data-toggle="tab" href="#designweek1">Design</a>
 								</li>
 
 								<li class="nav-item">
@@ -144,34 +142,32 @@
 										</div>
 									</div>
 								</div>
-								<div id="user_scernario" class="container tab-pane fade">
-								</div>
-								<div id="design" class="container tab-pane fade">
-                                    <div class="tieu_de">
+								<div id="designweek1" class="container tab-pane fade">
+									<div id="left_lab1">
                                         <h5>1. Thiết kế trên giấy</h5>
-                                        <img class="img-fluid" src="img/lab/paper.jpg" alt="">
-                                        <div class="down_file">
-                                            <button class="btn download">
-											<a class="text_white" href="img/lab/paper.jpg" download="img_paper">
-											<i class="fas fa_download"></i> Download File</a>
-										    </button>
-                                        </div>
-                                    </div>
+										<div class="down_file">
+											<button class="btn download">
+												<a class="text_white" href="img/lab/lab1/giay.jpg" download="img_paper">
+													<i class="fas fa_download"></i> Download File</a>
+											</button>
+										</div>
+                                        <img class="img-fluid" src="img/lab/lab1/giay.jpg" alt="">
+									</div>
 
+									<div id="right_lab1">
+										<h5>2. Thiết kế trên Figma</h5>
+										<div class="down_file">
+											<button class="btn download">
+												<a class="text_white" href="img/lab/lab1/lab_1.rar" download="img_figma">
+													<i class="fas fa_download"></i> Download File</a>
+											</button>
+										</div>
+								    	<img class="img-fluid" src="img/lab/lab1/form.PNG" alt="">
+									    <img class="img-fluid" src="img/lab/lab1/add.PNG" alt="">
+									    <img class="img-fluid" src="img/lab/lab1/edit.PNG" alt="">
+                                        <img class="img-fluid" src="img/lab/lab1/delete.PNG" alt="">
 
-                                    <div class="tieu_de">
-                                        <h5>2. Thiết kế trên Figma</h5>
-								    	<img class="img-fluid" src="img/lab/form.PNG" alt="">
-										<img class="img-fluid" src="img/lab/delete.PNG" alt="">
-									    <img class="img-fluid" src="img/lab/add.PNG" alt="">
-									    <img class="img-fluid" src="img/lab/edit.PNG" alt="">
-                                        <div class="down_file">
-                                            <button class="btn download">
-                                            <a class="text_white" href="img/lab/lab_1.zip" download="img_figma">
-                                                <i class="fas fa_download"></i> Download File</a>
-                                            </button>
-                                        </div>
-                                    </div>
+									</div>
 								</div>
 								<div id="implement" class="container tab-pane fade">
 									<div id="text_top">
@@ -364,13 +360,15 @@
 								</li>
 
 								<li class="nav-item items">
-									<a class="nav-link" data-toggle="tab" href="#user_scernario">User Scenario</a>
+									<a class="nav-link" data-toggle="tab"
+									   href="#userweek2">User Scenario</a>
 								</li>
 
 								<li class="nav-item">
 									<a class="nav-link" data-toggle="tab"
 									   href="#designweek2">Design</a>
 								</li>
+
 
 								<li class="nav-item">
 									<a class="nav-link items" data-toggle="tab"
@@ -379,31 +377,108 @@
 							</ul>
 							<div class="tab-content">
 								<div id="requirementweek2" class="container tab-pane fade active show">
+									<div class="bound">
+										<p>1. Tạo ra một user scenario </p>
+										<p>2. Chọn 1 bước trong user scenario để thiết kế 1 form giao diện web trên công cụ thiết kế đã chọn.
+											Sau đó tạo ra file html tương ứng cho thiết kế này.  </p>
+										<p>3. Upload lênAzure / github: trong file html có chèn hình ảnh của user scenario ở (1) và đường dẫn của file thiết kế ở (2).</p>
 
+									</div>
+								</div>
+
+								<div id="userweek2" class="container tab-pane fade">
+									<div id="khung">
+										<div class="text_top">
+											Một người dùng muốn thuê hay mua áo cưới online, người dùng cần trãi qua các bước sau đây:
+										</div>
+										<div class="text_week2">
+											<p>Truy cập vào trang địa chỉ của của hàng</p>
+										</div>
+										<div class="text_week2">
+											<p>Nhập tên sản phẩm vào mục tìm kiếm</p>
+										</div>
+										<div class="text_week2">
+											<p>Xem thông tin của sản phẩm, chọn số lượng cần mua rồi thêm sản phẩm vào giỏ hàng</p>
+										</div>
+										<div class="text_week2">
+											<p>Điền thông tin vào đơn đặt hàng</p>
+										</div>
+										<div class="text_week2">
+											<p>Kết thúc</p>
+										</div>
+
+									</div>
 								</div>
 
 								<div id="designweek2" class="container tab-pane fade">
-									<div class="bound">
-										<h3>Design</h3>
-										<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
-											laboris nisi
-											ut aliquip ex ea commodo consequat.</p>
+									<div id="left_lab2">
+										<h5>1. Thiết kế trên giấy</h5>
+										<div class="down_file">
+											<button class="btn download">
+											<a class="text_white" href="img/lab/lab2/paper2.jpg" download="img_paper">
+												<i class="fas fa_download"></i> Download File</a>
+											</button>
+										</div>
+										<img class="img-fluid" src="img/lab/lab2/paper2.jpg" alt="">
+									</div>
+
+									<div id="right_lab2">
+										<h5>2. Thiết kế trên figma</h5>
+										<div class="down_file">
+											<button class="btn download">
+												<a class="text_white" href="img/lab/lab2/figma2.jpg" download="img_figma">
+												<i class="fas fa_download"></i> Download File</a>
+											</button>
+										</div>
+										<img class="img-fluid" src="img//lab/lab2/figma2.jpg" alt="">
 									</div>
 								</div>
+
+
 								<div id="implementweek2" class="container tab-pane fade">
-									<div class="bound">
-										<h3>Implement</h3>
-										<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
-											laboris nisi
-											ut aliquip ex ea commodo consequat.</p>
+									<div id="left_imp">
+										<img class="img-fluid" src="img/lab/lab2/lab2_1.jpg" alt="">
 									</div>
+									<div id="right_imp">
+										<div id="text_ten">
+											ÁO CƯỚI CÔNG CHÚA
+										</div>
+										<div id="text_ma">
+											CC-101
+										</div>
+										<div id="text_gia">
+											Giá thuê: <p1>Liên hệ</p1>
+											<br>
+											<p>Giá bán: 4.000.000đ</p>
+										</div>
+										<div id="pic">
+											<img class="img-fluid" src="img/lab/lab2/1.jpg" alt="">
+											<img class="img-fluid" src="img/lab/lab2/2.jpg" alt="">
+											<img class="img-fluid" src="img/lab/lab2/3.jpg" alt="">
+
+										</div>
+										<div id="text_infor">
+											+ Tình trạng: Còn trong kho
+											<br>
+											+ Mã sản phẩm: AO-280399
+										</div>
+										<div id="text_sl">
+											<div id="sl_left">
+												Số lượng:
+											</div>
+											<div id="sl_rigth">
+												<input type="text" value="1">
+											</div>
+										</div>
+										<div id="text_button">
+											<input type="button" value="Thêm vào giỏ hàng">
+									</div>
+
 								</div>
-
-
 							</div>
 						</div>
+						</div>
 					</div>
-
 					<div id="menu2" class="container tab-pane fade">
 						<div class="contan">
 							<ul class=" nav nav-tabs" role="tablist">
@@ -429,13 +504,7 @@
 							<div class="tab-content">
 								<div id="requirementweek3"
 									 class="container tab-pane fade active show">
-									<div class="bound">
-										<p>1. Tạo ra một user scenario </p>
-										<p>2. Chọn 1 bước trong user scenario để thiết kế 1 form giao diện web trên công cụ thiết kế đã chọn.
-											Sau đó tạo ra file html tương ứng cho thiết kế này.  </p>
-										<p>3. Upload lênAzure / github: trong file html có chèn hình ảnh của user scenario ở (1) và đường dẫn của file thiết kế ở (2).</p>
 
-									</div>
 								</div>
 
 								<div id="designweek3" class="container tab-pane fade">
@@ -458,7 +527,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
+			</div>
 			</div>
 		</div>
 	</section>
@@ -482,7 +551,7 @@
 										<ul class="nav navbar-nav menu_nav mx-auto">
 											<li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
 											<li class="nav-item"><a class="nav-link text-white" href="about.html">About</a></li>
-											<li class="nav-item"><a class="nav-link text-white" href="lab_1.html">Labs</a></li>
+											<li class="nav-item"><a class="nav-link text-white" href="lab.html">Labs</a></li>
 
 										</ul>
 									</div>

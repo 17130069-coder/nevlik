@@ -32,21 +32,36 @@ section#Lab .group-tabs .tab-content p{
 
 
 /*PHẦN DESIGN*/
-#home1 #design{
+#home1 #designweek1{
     width: 1100px;
+    height: 800px;
     margin: auto;
 }
-#home1 #design .tieu_de h5{
-    margin-bottom: 30px;
+#home1 #designweek1 #left_lab1{
+    float: left;
+    clear: right;
+    width: 50%;
+    height: 400px;
 }
-#home1 #design .tieu_de img{
-    margin: 30px 30px;
-    border: 1px solid #aaaaaa;
-    border-radius: 5px;
+#home1 #designweek1 #right_lab1{
+    float: right;
+    width: 50%;
+    height: 400px;
 }
-#home1 #design .tieu_de .down_file button{
-   margin-bottom: 50px;
-    margin-left: 30px;
+#home1 #designweek1 #right_lab1 img{
+    margin: 0px 10px 10px 0px;
+}
+#home1 #designweek1 .down_file{
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+#home1 #designweek1 .down_file button{
+    background: #bd2130;
+
+}
+#home1 #designweek1 .down_file button a{
+    color: white;
 }
 /*PHẦN implement*/
  #home1 #implement{

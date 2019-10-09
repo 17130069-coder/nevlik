@@ -1,0 +1,144 @@
+#menu1 #designweek2{
+    width: 1100px;
+    height: 400px;
+    margin: auto;
+}
+#menu1 #designweek2 #left_lab2{
+    float: left;
+    clear: right;
+}
+#menu1 #designweek2 #right_lab2{
+    float: right;
+}
+
+#menu1 #designweek2 .down_file{
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+#menu1 #designweek2 .down_file button{
+    background: #bd2130;
+
+}
+#menu1 #designweek2 .down_file button a{
+    color: white;
+}
+
+/*
+USER CENARIO*/
+#userweek2{
+    width: 1100px;
+    margin: auto;
+}
+#userweek2 #khung{
+    border: 1px solid #d3d9df;
+    border-radius: 5px;
+    background: #0c5460;
+}
+#userweek2 #khung .text_top{
+    color: white;
+    font-size: 20px;
+    font-family: Arial;
+    text-align: center;
+    margin: 20px 0px;
+}
+#userweek2 #khung .text_week2{
+    width: 200px;
+    height: 100px;
+    background: #298cdf;
+    border: 1px solid #d3d9df;
+    border-radius: 5px;
+}
+#userweek2 #khung .text_week2 p{
+    color: black;
+    font-size: 14px;
+    font-family: Arial;
+
+}
+/*IMPLEMENT*/
+#implementweek2{
+    width: 1100px;
+    height: 550px;
+    margin: auto;
+
+
+}
+#implementweek2 #left_imp{
+    float: left;
+    clear: right;
+    width: 45%;
+
+}
+#implementweek2 #right_imp{
+    float: right;
+    width: 50%;
+}
+#implementweek2 #left_imp img{
+    width: 400px;
+    height: 600px;
+}
+#implementweek2 #right_imp #text_ten{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: arial;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#implementweek2 #right_imp #text_ma{
+    margin-left: 105px;
+    font-family: arial;
+    margin-bottom: 20px;
+}
+#implementweek2 #right_imp #text_gia p1{
+    font-weight: bold;
+    font-family: arial;
+
+}
+#implementweek2 #right_imp #text_gia p{
+    font-family: arial;
+    font-size: 22px;
+    color: #bd2130;
+    margin-left: 0px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#implementweek2 #right_imp #text_infor{
+    margin-bottom: 20px;
+}
+#implementweek2 #right_imp #text_sl{
+    width: 150px;
+    margin-bottom: 20px;
+}
+#implementweek2 #right_imp #text_sl #sl_left{
+    float: left;
+    clear: right;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+}
+#implementweek2 #right_imp #text_sl #sl_rigth{
+    float: right;
+}
+#implementweek2 #right_imp #text_sl #sl_rigth input{
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+#implementweek2 #right_imp img{
+    width: 140px;
+    height: 190px;
+    margin: 10px 5px;
+    margin-bottom: 20px;
+}
+#implementweek2 #right_imp #text_button input{
+    border-radius: 50px;
+    background: rgba(230,26,76,0.87);
+    color: white;
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: bold;
+
+}
+
+
