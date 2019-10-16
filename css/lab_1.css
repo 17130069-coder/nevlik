@@ -9,26 +9,39 @@ section#Lab .group-tabs .tab-top ul li{
 }
 
 section#Lab .group-tabs .tab-content{
-    width: 580px;
+    width: 1000px;
 }
 section#Lab .group-tabs .tab-content ul{
-    margin: 0px 0px 50px -15px;
+   margin-bottom: 50px;
+    margin-left: 20px;
+    width: 1000px;
 }
 section#Lab .group-tabs .tab-content ul li{
     width: 140px ;
     text-align: center;
 }
 section#Lab .group-tabs .tab-content p{
-    margin-left: 20px;
+    margin-left: 15px;
 }
 .nav-tabs .nav-link{
     color: #0062cc;
     border-color: transparent transparent #f3f3f3;
-    border-bottom: 5px solid !important;
+    border-bottom: 5px solid #8034c3;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: bolder;
 }
-
+.nav-tabs{
+    margin-bottom: 5px;
+}
+.table thead th {
+    border: 2px solid #8034c3;
+}
+table, th, td {
+    border: 2px solid #8034c3;
+}
+b, sup, sub, u, del {
+    color: #0c5460;
+}
 
 
 /*PHẦN DESIGN*/
