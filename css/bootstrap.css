@@ -798,9 +798,11 @@ pre code {
 }
 
 .col-12 {
+
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%
+
 }
 
 .order-first {

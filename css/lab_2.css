@@ -1,130 +1,128 @@
-#menu1 #designweek2{
+#design-lab2{
     width: 1100px;
     height: 400px;
     margin: auto;
 }
-#menu1 #designweek2 #left_lab2{
+#design-lab2 .left_lab{
+    width: 50%;
     float: left;
     clear: right;
 }
-#menu1 #designweek2 #right_lab2{
+#design-lab2 .right_lab{
     float: right;
+    width: 50%;
 }
 
-#menu1 #designweek2 .down_file{
+#design-lab2 .down_file{
     margin-bottom: 20px;
     margin-top: 20px;
 
 }
-#menu1 #designweek2 .down_file button{
+/* #design-lab2 .down_file button{
     background: #bd2130;
 
 }
-#menu1 #designweek2 .down_file button a{
+#design-lab2 .down_file button a{
     color: white;
-}
+}*/
 
 /*
 USER CENARIO*/
-#userweek2{
+#user-lab2{
     width: 1100px;
     margin: auto;
 }
-#userweek2 #khung{
+#user-lab2 #khung{
     border: 1px solid #d3d9df;
     border-radius: 5px;
     background: #117a8b;
     height: 600px;
 }
-#userweek2 #khung .text_top{
+#user-lab2 .text_top{
     color: white;
     font-size: 20px;
-    font-family: Arial;
+    font-family: "Roboto", sans-serif;
     text-align: center;
     margin: 20px 0px;
 }
-#userweek2 #khung .text1_week2{
+#user-lab2 .text1_week2{
     text-align: center;
     width: 200px;
-    height: 100px;
+    height: 150px;
     position: absolute;
-    top: 750px;
+    top: 500px;
     left: 260px;
     background: #cce5ff;
     border: #80bdff solid 2px;
     font-size: 15px;
     border-radius: 5px;
 }
-#userweek2 #khung .text1_week2 p {
+#user-lab2 .text1_week2 p {
     font-size: 16px;
-    font-family: Arial;
-    font-weight: bold;
+    font-family: "Roboto", sans-serif;
     text-align: center;
-    margin: 25px 0px;
+    margin: 45px 0px;
 }
-#userweek2 #khung .text2_week2{
+#user-lab2 .text2_week2{
     text-align: center;
     width: 200px;
-    height: 100px;
+    height: 150px;
     position: absolute;
-    top: 750px;
+    top: 500px;
     left: 585px;
     background: #cce5ff;
     border: #80bdff solid 2px;
     font-size: 15px;
     border-radius: 5px;
 }
-#userweek2 #khung .text2_week2 p {
+#user-lab2 .text2_week2 p {
     font-size: 16px;
-    font-family: Arial;
-    font-weight: bold;
+    font-family: Roboto;
     text-align: center;
-    margin: 25px 0px;
+    margin: 45px 0px;
 }
-#userweek2 #khung .text3_week2{
+#user-lab2 .text3_week2{
     text-align: center;
     width: 200px;
-    height: 100px;
+    height: 150px;
     position: absolute;
-    top: 750px;
+    top: 500px;
     left: 900px;
     background: #cce5ff;
     border: #80bdff solid 2px;
     font-size: 15px;
     border-radius: 5px;
 }
-#userweek2 #khung .text3_week2 p {
+#user-lab2 .text3_week2 p {
     font-size: 16px;
-    font-family: Arial;
-    font-weight: bold;
+    font-family: "Roboto", sans-serif;
     text-align: center;
-    margin: 0px 0px;
+    margin: 19px 0px;
 }
-#userweek2 #khung .text4_week2{
+#user-lab2 .text4_week2{
     text-align: center;
     width: 200px;
-    height: 100px;
+    height: 150px;
     position: absolute;
-    top: 1000px;
+    top: 770px;
     left: 900px;
     background: #cce5ff;
     border: #80bdff solid 2px;
     font-size: 15px;
     border-radius: 5px;
 }
-#userweek2 #khung .text4_week2 p {
+#user-lab2 .text4_week2 p {
     font-size: 16px;
-    font-family: Arial;
-    font-weight: bold;
+    font-family: "Roboto", sans-serif;
     text-align: center;
-    margin: 0px 0px;
+    margin: 17px 0px;
 }
-#userweek2 #khung .text5_week2{
+#user-lab2 .text5_week2{
     text-align: center;
     width: 200px;
-    height: 100px;
+    height: 150px;
     position: absolute;
-    top: 1000px;
+    top: 770px;
     left: 585px;
     background: #cce5ff;
     border: #80bdff solid 2px;
@@ -132,101 +130,99 @@ USER CENARIO*/
     border-radius: 5px;
 
 }
-#userweek2 #khung .text5_week2 p {
+#user-lab2 .text5_week2 p {
     font-size: 16px;
-    font-family: Arial;
-    font-weight: bold;
+    font-family: Roboto;
     text-align: center;
-    margin: 25px 0px;
+    margin: 45px 0px;
 }
 
-#userweek2 #khung .text6_week2 {
+#user-lab2 .text6_week2 {
      text-align: center;
      width: 200px;
-     height: 100px;
+     height: 150px;
      position: absolute;
-     top: 1000px;
+    top: 770px;
      left: 260px;
      background: #cce5ff;
      border: #80bdff solid 2px;
      font-size: 15px;
      border-radius: 5px;
  }
-#userweek2 #khung .text6_week2 p {
+#user-lab2  .text6_week2 p {
     font-size: 16px;
-    font-family: Arial;
-    font-weight: bold;
+    font-family: "Roboto", sans-serif;
     text-align: center;
-    margin: 30px 0px;
+    margin: 50px 0px;
 }
 
 
-#userweek2 #khung .text_week2 p{
+#user-lab2 .text_week2 p{
     color: black;
-    font-size: 14px;
-    font-family: Arial;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
 
 }
-#userweek2 #khung .user{
+#user-lab2  .user{
     font-size: 50px;
     color: #80bdff;
     position: absolute;
-    top: 750px;
+    top: 555px;
     left: 500px;
 }
-#userweek2 #khung .user1{
+#user-lab2  .user1{
     font-size: 50px;
     color: #80bdff;
     position: absolute;
-    top: 750px;
+    top: 555px;
     left: 820px;
 }
-#userweek2 #khung .user2{
+#user-lab2 .user2{
     font-size: 50px;
     color: #80bdff;
     position: absolute;
-    top: 880px;
+    top: 700px;
     left: 980px;
 }
-#userweek2 #khung .user3{
+#user-lab2 .user3{
     font-size: 50px;
     color: #80bdff;
     position: absolute;
-    top: 1000px;
+    top: 825px;
     left: 820px;
 }
-#userweek2 #khung .user4{
+#user-lab2 .user4{
     font-size: 50px;
     color: #80bdff;
     position: absolute;
-    top: 1000px;
+    top: 825px;
     left: 500px;
 }
 
 
 /*IMPLEMENT*/
-#implementweek2{
+#implement-lab2{
     width: 1100px;
     height: 550px;
     margin: auto;
 
 
 }
-#implementweek2 #left_imp{
+#implement-lab2 #left_imp{
     float: left;
     clear: right;
     width: 45%;
 
 }
-#implementweek2 #right_imp{
+#implement-lab2 #right_imp{
     float: right;
     width: 50%;
 }
-#implementweek2 #left_imp img{
+#implement-lab2 #left_imp img{
     width: 400px;
     height: 600px;
 }
-#implementweek2 #right_imp #text_ten{
+#implement-lab2 #right_imp #text_ten{
     font-size: 25px;
     font-weight: bold;
     font-family: arial;
@@ -234,17 +230,17 @@ USER CENARIO*/
     margin-bottom: 20px;
 }
 
-#implementweek2 #right_imp #text_ma{
+#implement-lab2 #right_imp #text_ma{
     margin-left: 105px;
     font-family: arial;
     margin-bottom: 20px;
 }
-#implementweek2 #right_imp #text_gia p1{
+#implement-lab2 #right_imp #text_gia p1{
     font-weight: bold;
     font-family: arial;
 
 }
-#implementweek2 #right_imp #text_gia p{
+#implement-lab2 #right_imp #text_gia p{
     font-family: arial;
     font-size: 22px;
     color: #bd2130;
@@ -252,35 +248,35 @@ USER CENARIO*/
     font-weight: bold;
     margin-bottom: 20px;
 }
-#implementweek2 #right_imp #text_infor{
+#implement-lab2 #right_imp #text_infor{
     margin-bottom: 20px;
 }
-#implementweek2 #right_imp #text_sl{
+#implement-lab2 #right_imp #text_sl{
     width: 150px;
     margin-bottom: 20px;
 }
-#implementweek2 #right_imp #text_sl #sl_left{
+#implement-lab2 #right_imp #text_sl #sl_left{
     float: left;
     clear: right;
     font-family: Arial;
     font-size: 18px;
     font-weight: bold;
 }
-#implementweek2 #right_imp #text_sl #sl_rigth{
+#implement-lab2 #right_imp #text_sl #sl_rigth{
     float: right;
 }
-#implementweek2 #right_imp #text_sl #sl_rigth input{
+#implement-lab2 #right_imp #text_sl #sl_rigth input{
     width: 50px;
     margin-bottom: 20px;
 }
 
-#implementweek2 #right_imp img{
+#implement-lab2 #right_imp img{
     width: 140px;
     height: 190px;
     margin: 10px 5px;
     margin-bottom: 20px;
 }
-#implementweek2 #right_imp #text_button input{
+#implement-lab2 #right_imp #text_button input{
     border-radius: 50px;
     background: rgba(230,26,76,0.87);
     color: white;
