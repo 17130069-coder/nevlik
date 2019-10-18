@@ -1,0 +1,289 @@
+#design-lab2{
+    width: 1100px;
+    height: 400px;
+    margin: auto;
+}
+#design-lab2 .left_lab{
+    width: 50%;
+    float: left;
+    clear: right;
+}
+#design-lab2 .right_lab{
+    float: right;
+    width: 50%;
+}
+
+#design-lab2 .down_file{
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+/* #design-lab2 .down_file button{
+    background: #bd2130;
+
+}
+#design-lab2 .down_file button a{
+    color: white;
+}*/
+
+/*
+USER CENARIO*/
+#user-lab2{
+    width: 1100px;
+    margin: auto;
+}
+#user-lab2 #khung{
+    border: 1px solid #d3d9df;
+    border-radius: 5px;
+    background: #117a8b;
+    height: 600px;
+}
+#user-lab2 .text_top{
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: 20px 0px;
+}
+#user-lab2 .text1_week2{
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 500px;
+    left: 260px;
+    background: #cce5ff;
+    border: #80bdff solid 2px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+#user-lab2 .text1_week2 p {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: 45px 0px;
+}
+#user-lab2 .text2_week2{
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 500px;
+    left: 585px;
+    background: #cce5ff;
+    border: #80bdff solid 2px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+#user-lab2 .text2_week2 p {
+    font-size: 16px;
+    font-family: Roboto;
+    text-align: center;
+    margin: 45px 0px;
+}
+#user-lab2 .text3_week2{
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 500px;
+    left: 900px;
+    background: #cce5ff;
+    border: #80bdff solid 2px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+#user-lab2 .text3_week2 p {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: 19px 0px;
+}
+#user-lab2 .text4_week2{
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 770px;
+    left: 900px;
+    background: #cce5ff;
+    border: #80bdff solid 2px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+#user-lab2 .text4_week2 p {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: 17px 0px;
+}
+#user-lab2 .text5_week2{
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 770px;
+    left: 585px;
+    background: #cce5ff;
+    border: #80bdff solid 2px;
+    font-size: 15px;
+    border-radius: 5px;
+
+}
+#user-lab2 .text5_week2 p {
+    font-size: 16px;
+    font-family: Roboto;
+    text-align: center;
+    margin: 45px 0px;
+}
+
+#user-lab2 .text6_week2 {
+     text-align: center;
+     width: 200px;
+     height: 150px;
+     position: absolute;
+    top: 770px;
+     left: 260px;
+     background: #cce5ff;
+     border: #80bdff solid 2px;
+     font-size: 15px;
+     border-radius: 5px;
+ }
+#user-lab2  .text6_week2 p {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+
+#user-lab2 .text_week2 p{
+    color: black;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+
+}
+#user-lab2  .user{
+    font-size: 50px;
+    color: #80bdff;
+    position: absolute;
+    top: 555px;
+    left: 500px;
+}
+#user-lab2  .user1{
+    font-size: 50px;
+    color: #80bdff;
+    position: absolute;
+    top: 555px;
+    left: 820px;
+}
+#user-lab2 .user2{
+    font-size: 50px;
+    color: #80bdff;
+    position: absolute;
+    top: 700px;
+    left: 980px;
+}
+#user-lab2 .user3{
+    font-size: 50px;
+    color: #80bdff;
+    position: absolute;
+    top: 825px;
+    left: 820px;
+}
+#user-lab2 .user4{
+    font-size: 50px;
+    color: #80bdff;
+    position: absolute;
+    top: 825px;
+    left: 500px;
+}
+
+
+/*IMPLEMENT*/
+#implement-lab2{
+    width: 1100px;
+    height: 550px;
+    margin: auto;
+
+
+}
+#implement-lab2 #left_imp{
+    float: left;
+    clear: right;
+    width: 45%;
+
+}
+#implement-lab2 #right_imp{
+    float: right;
+    width: 50%;
+}
+#implement-lab2 #left_imp img{
+    width: 400px;
+    height: 600px;
+}
+#implement-lab2 #right_imp #text_ten{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: arial;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#implement-lab2 #right_imp #text_ma{
+    margin-left: 105px;
+    font-family: arial;
+    margin-bottom: 20px;
+}
+#implement-lab2 #right_imp #text_gia p1{
+    font-weight: bold;
+    font-family: arial;
+
+}
+#implement-lab2 #right_imp #text_gia p{
+    font-family: arial;
+    font-size: 22px;
+    color: #bd2130;
+    margin-left: 0px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#implement-lab2 #right_imp #text_infor{
+    margin-bottom: 20px;
+}
+#implement-lab2 #right_imp #text_sl{
+    width: 150px;
+    margin-bottom: 20px;
+}
+#implement-lab2 #right_imp #text_sl #sl_left{
+    float: left;
+    clear: right;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+}
+#implement-lab2 #right_imp #text_sl #sl_rigth{
+    float: right;
+}
+#implement-lab2 #right_imp #text_sl #sl_rigth input{
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+#implement-lab2 #right_imp img{
+    width: 140px;
+    height: 190px;
+    margin: 10px 5px;
+    margin-bottom: 20px;
+}
+#implement-lab2 #right_imp #text_button input{
+    border-radius: 50px;
+    background: rgba(230,26,76,0.87);
+    color: white;
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: bold;
+
+}
+
+
