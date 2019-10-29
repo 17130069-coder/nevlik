@@ -141,4 +141,7 @@
 footer.footer_area{
     clear: both;
 }
+#bt_search button.add:hover{
+    background: silver;
+}
 

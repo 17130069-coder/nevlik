@@ -1,0 +1,437 @@
+#implement-lab4{
+    width: 1140px;
+}
+#page{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    border: 1px solid rgba(166,143,255,0.21);
+
+}
+
+#section_1{
+    width: 100%;
+    height: 100px;
+
+}
+.top{
+    width: 100%;
+    height: 50px;
+}
+
+
+.top ul li {
+    font-size: 14px;
+    display: inline-block;
+   position: relative;
+    top: 10px;
+    left: 760px;
+    margin-right: 15px;
+}
+.top ul li input{
+    background: #4ABF60;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+.top-menu .logo{
+    width: 16.66667%;
+    float: left;
+    clear: right;
+    margin: 10px 230px 0px 50px;
+}
+.top-menu .logo img{
+    margin-left: 70px;
+}
+
+.nav-menu {
+    width:1100px;
+    height: 50px;
+}
+.nav-menu ul{
+display: inline;
+}
+.nav-menu li {
+    margin:0px;
+    list-style:none;
+
+
+}
+.nav-menu ul li:hover{
+    cursor: pointer;
+    border-bottom: 3px solid orange;
+    animation: menucolor 1s;
+
+}
+.nav-menu a {
+    font-family:Arial;
+    transition:all linear 0.15s;
+    color:black;
+    text-decoration:none;
+}
+.nav-menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:black;
+    font-family:Arial;
+}
+
+/*----- css cho phần menu cha -----*/
+.nav-menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+
+}
+.nav-menu > ul > li > a {
+    padding:30px 10px;
+    display:inline-block;
+    color:black;
+    font-size: 14px;
+    font-family:Arial;
+    font-weight: bold;
+}
+
+/*----css cho menu con----*/
+.nav-menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+.sub-menu {
+    width: 120px;
+    padding: 0 0;
+    position:absolute;
+    top:100%;
+    left:10px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    border: 1px solid silver;
+    background: white;
+
+}
+.sub-menu li {
+    display:block;
+    font-size:14px;
+    border-bottom: 1px solid silver;
+}
+.sub-menu li a {
+    padding:10px 10px;
+    display:block;
+    font-size: 13px;
+    font-family:Arial;
+
+
+}
+
+
+/*
+SLIDE SHOW*/
+
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.dot {
+    cursor:pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/*.active, .dot:hover {
+    background-color: #717171;
+}*/
+
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3s;
+    animation-name: fade;
+    animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@-webkit-keyframes textt {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes texxt {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.slideshow-container .text{
+    width: 30%;
+    height: 100px;
+    font-family: Arial;
+    color: #2c323c;
+    text-align: left;
+    font-size: 16px;
+    top: 80px;
+    left: 130px;
+    -webkit-animation-name: textt;
+    -webkit-animation-duration: 3s;
+    animation-name: textt;
+    animation-duration: 3s;
+}
+.slideshow-container .text p{
+    font-size: 24px;
+}
+.slideshow-container .text a{
+    font-size: 14px;
+
+}
+
+.text input{
+    background: orange;
+    color: black;
+    font-family: Arial;
+    border-radius: 5px;
+    border: 1px solid silver;
+    height: 30px;
+    width: 110px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    -webkit-animation-name: textt;
+    -webkit-animation-duration: 3s;
+    animation-name: textt;
+    animation-duration: 3s;
+
+}
+/*
+CONTENT*/
+
+#content{
+    width: 100%;
+    margin: auto;
+}
+#text-1{
+    width: 85%;
+    height: 400px;
+
+}
+
+
+
+.check p{
+    float: left;
+    clear: right;
+    font-size: 20px;
+    color: #28a4c9;
+    font-weight: bold;
+}
+.check input{
+    float: right;
+    position: relative;
+    top: 10px;
+    left: -150px;
+}
+.check span{
+
+    position: relative;
+    left: 50px;
+    top: 4px;
+}
+#text-1 form{
+    color: black; font-weight: normal;
+    width: 50%;
+    border: 1px solid #d3d9df;
+    padding: 30px 10px 30px 30px;
+    margin: 50px 0px 50px 320px;
+}
+
+
+
+#text-2{
+    width: 80%;
+    margin: 40px 0px 50px 120px ;
+
+}
+#text-2 .txt{
+    height: 20px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 20px ;
+}
+#text-2 .form{
+    width: 100% ;
+    text-align: center;
+    padding-left: 8px;
+}
+#text-2 .form1 {
+    width: 195px;
+    height: 250px;
+    border: 1px solid #d5d5d5;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 5px 0px #d5d5d5;
+    position: relative;
+}
+#text-2 .form1  p{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bolder;
+}
+#text-2 .form1  a{
+    font-family: Arial;
+    font-size: 12px;
+    color: #6c757d;
+}
+.imgg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+}
+
+.form1:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+.img-txt {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+#text-3{
+    width: 80%;
+    height: 180px;
+    margin: 40px 0px 50px 120px ;
+    clear: both;
+
+}
+#text-3 .txt{
+    height: 20px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 20px ;
+}
+#text-3 .khung{
+    height: 70px;
+    width: 100%;
+    border: 1px solid #d5d5d5;
+    margin-bottom: 80px;
+}
+#text-3 .khung ul{
+    margin: 25px 0px 10px -35px;
+}
+#text-3 .khung ul li{
+    list-style: none;
+}
+#text-3 .khung ul li:hover img {
+    cursor: pointer;
+    border-top: 3px solid orange;
+    animation: menucolor 1s;
+}
+#text-3 .khung ul img{
+    float: left;
+    margin-top: -25px;
+
+
+}
+.khung ul li{
+    margin-left: 40px;
+}
+
+/*BACK TO TOP*/
+
+#backtop {
+    float: right;
+    cursor: pointer;
+}
+#backtop button{
+    width: 35px;
+    height: 35px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    top: -160px;
+}
+#backtop button img{
+    position: relative;
+    top: -4px;
+    left: -10px;
+
+}
+#design-lab4{
+    height: 800px;
+ }
+ #design-lab4 .left_lab{
+    width: 45%;
+    float: left;
+    clear: right;
+     margin-right: 50px;
+}
+#design-lab4 .right_lab{
+    float: right;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
