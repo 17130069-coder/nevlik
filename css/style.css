@@ -114,15 +114,16 @@ section#Lab .group-tabs .tab-content p{
     margin-bottom: 5px;
 }
 .table thead th {
-    border: 2px solid black;
+    border: 1px solid silver;
 }
+
 .bound table{
     font-size: 16px;
     font-family: Roboto;
     color: black;
 }
 table, th, td {
-    border: 2px solid black;
+    border: 1px solid silver;
 }
 b, sup, sub, u, del {
     color: black;
