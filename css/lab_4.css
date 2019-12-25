@@ -5,8 +5,6 @@
     width: 1100px;
     margin: auto;
     position: relative;
-    border: 1px solid rgba(166,143,255,0.21);
-
 }
 
 #section_1{
@@ -353,7 +351,7 @@ CONTENT*/
 #text-3{
     width: 80%;
     height: 180px;
-    margin: 40px 0px 50px 120px ;
+    margin: 0px 0px 0px 120px ;
     clear: both;
 
 }
@@ -368,7 +366,7 @@ CONTENT*/
     height: 70px;
     width: 100%;
     border: 1px solid #d5d5d5;
-    margin-bottom: 80px;
+
 }
 #text-3 .khung ul{
     margin: 25px 0px 10px -35px;
@@ -411,19 +409,6 @@ CONTENT*/
     top: -4px;
     left: -10px;
 
-}
-#design-lab4{
-    height: 800px;
- }
- #design-lab4 .left_lab{
-    width: 45%;
-    float: left;
-    clear: right;
-     margin-right: 50px;
-}
-#design-lab4 .right_lab{
-    float: right;
-    width: 50%;
 }
 
 

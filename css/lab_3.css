@@ -5,36 +5,7 @@ section#Lab .group-tabs .tab-1 ul {
 .len-80px{
     margin-top:  10px;
 }
-#design-ex1{
-    width: 1100px;
-    height: 700px;
-}
-#design-ex2{
-    width: 1100px;
-    height: 700px;
-}
-#design-ex1 .left_lab{
-    width: 50%;
-    float: left;
-    clear: right;
-}
-#design-ex1 .right_lab{
-    float: right;
-    width: 50%;
-}
-#design-ex2{
-    width: 1100px;
-    height: 700px;
-}
-#design-ex2 .left_lab{
-    width: 50%;
-    float: left;
-    clear: right;
-}
-#design-ex2 .right_lab{
-    float: right;
-    width: 50%;
-}
+
 #implement-ex1{
     width: 100%;
     margin: auto;

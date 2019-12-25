@@ -1,44 +1,13 @@
 
-
-/*PHẦN DESIGN*/
- #design-lab1{
-     height: 1000px;
-    margin: auto;
-}
-#design-lab1 .left_lab{
-    float: left;
-    clear: right;
-    width: 400px;
-    height: 400px;
-}
- #design-lab1 .right_lab{
-    float: right;
-    width: 520px;
-    height: 400px;
-}
- #design-lab1 .right_lab1 img{
-    margin: 0px 10px 10px 0px;
-}
-#design-lab1 .down_file{
-    margin-bottom: 20px;
-    margin-top: 20px;
-
-}
-/*#design-lab1 .down_file button{
-    background: #bd2130;
-
-}
-#design-lab1 .down_file button a{
-    color: white;
-}*/
 /*PHẦN implement*/
  #home1 #implement-lab1{
     width: 1100px;
 
 }
-#implement-lab1 #text_top{
+#implement-lab1 #text_top {
     font-family: Arial;
     font-size: 40px;
+    margin-top: 20px;
 }
 #implement-lab1 #tab_congcu{
     width: 100%;
@@ -53,20 +22,20 @@
     float: right;
     width: 50%;
 }
-#implement-lab1 #tab_congcu #left #sosanh{
+#implement-lab1 #tab_congcu #left button{
     float: left;
     clear: right;
-    width: 200px;
+    width: 210px;
     height: 40px;
     padding: 8px 32px;
     color: black;
     font-family: Arial;
     font-size: 16px;
-    background-color: #fca4a4
+    background-color: #fca4a4;
 }
 #implement-lab1 #tab_congcu #left #sapxep {
     float: right;
-    width: 60%;
+    width: 50%;
     font-family: Arial;
     font-size: 16px;
     padding: 8px 10px;
@@ -101,7 +70,7 @@
 
 
 #center {
-    width: 1100px;
+    width: 1050px;
 }
 #center .sanpham .card_1 {
     width: 300px;

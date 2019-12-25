@@ -1,30 +1,4 @@
-#design-lab2{
-    width: 1100px;
-    height: 400px;
-    margin: auto;
-}
-#design-lab2 .left_lab{
-    width: 50%;
-    float: left;
-    clear: right;
-}
-#design-lab2 .right_lab{
-    float: right;
-    width: 50%;
-}
 
-#design-lab2 .down_file{
-    margin-bottom: 20px;
-    margin-top: 20px;
-
-}
-/* #design-lab2 .down_file button{
-    background: #bd2130;
-
-}
-#design-lab2 .down_file button a{
-    color: white;
-}*/
 
 /*
 USER CENARIO*/
@@ -35,7 +9,7 @@ USER CENARIO*/
 #user-lab2 #khung{
     border: 1px solid #d3d9df;
     border-radius: 5px;
-    background: #117a8b;
+    background: #0c5460;
     height: 600px;
 }
 #user-lab2 .text_top{
@@ -50,7 +24,7 @@ USER CENARIO*/
     width: 200px;
     height: 150px;
     position: absolute;
-    top: 500px;
+    top: 400px;
     left: 260px;
     background: #cce5ff;
     border: #80bdff solid 2px;
@@ -68,7 +42,7 @@ USER CENARIO*/
     width: 200px;
     height: 150px;
     position: absolute;
-    top: 500px;
+    top: 400px;
     left: 585px;
     background: #cce5ff;
     border: #80bdff solid 2px;
@@ -86,7 +60,7 @@ USER CENARIO*/
     width: 200px;
     height: 150px;
     position: absolute;
-    top: 500px;
+    top: 400px;
     left: 900px;
     background: #cce5ff;
     border: #80bdff solid 2px;
@@ -104,7 +78,7 @@ USER CENARIO*/
     width: 200px;
     height: 150px;
     position: absolute;
-    top: 770px;
+    top: 670px;
     left: 900px;
     background: #cce5ff;
     border: #80bdff solid 2px;
@@ -122,7 +96,7 @@ USER CENARIO*/
     width: 200px;
     height: 150px;
     position: absolute;
-    top: 770px;
+    top: 670px;
     left: 585px;
     background: #cce5ff;
     border: #80bdff solid 2px;
@@ -142,7 +116,7 @@ USER CENARIO*/
      width: 200px;
      height: 150px;
      position: absolute;
-    top: 770px;
+    top: 670px;
      left: 260px;
      background: #cce5ff;
      border: #80bdff solid 2px;
@@ -167,35 +141,35 @@ USER CENARIO*/
     font-size: 50px;
     color: #80bdff;
     position: absolute;
-    top: 555px;
+    top: 455px;
     left: 500px;
 }
 #user-lab2  .user1{
     font-size: 50px;
     color: #80bdff;
     position: absolute;
-    top: 555px;
+    top: 455px;
     left: 820px;
 }
 #user-lab2 .user2{
     font-size: 50px;
     color: #80bdff;
     position: absolute;
-    top: 700px;
+    top: 600px;
     left: 980px;
 }
 #user-lab2 .user3{
     font-size: 50px;
     color: #80bdff;
     position: absolute;
-    top: 825px;
+    top: 725px;
     left: 820px;
 }
 #user-lab2 .user4{
     font-size: 50px;
     color: #80bdff;
     position: absolute;
-    top: 825px;
+    top: 725px;
     left: 500px;
 }
 
@@ -220,7 +194,8 @@ USER CENARIO*/
 }
 #implement-lab2 #left_imp img{
     width: 400px;
-    height: 600px;
+    height: 500px;
+    padding-left: 50px;
 }
 #implement-lab2 #right_imp #text_ten{
     font-size: 25px;
@@ -273,7 +248,7 @@ USER CENARIO*/
 #implement-lab2 #right_imp img{
     width: 140px;
     height: 190px;
-    margin: 10px 5px;
+    margin: 10px 0px;
     margin-bottom: 20px;
 }
 #implement-lab2 #right_imp #text_button input{

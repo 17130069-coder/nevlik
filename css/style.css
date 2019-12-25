@@ -17,7 +17,7 @@ button.primary_btn{border:0}.mt-25{margin-top:25px}.p0{padding-left:0px;padding-
 .section_gap_top{padding-top:140px}@media (max-width: 1199px){.section_gap_top{padding-top:80px}}
 
 @media (max-width: 1199px){.section_gap_bottom{padding-bottom:80px}}
-.main_title{margin-bottom:80px}
+.main_title{margin-bottom:150px}
 @media (max-width: 1199px){.main_title{margin-bottom:40px}}
 .main_title p.top_text{text-transform:uppercase;letter-spacing:2px;font-weight:500;position:relative;margin-bottom:10px}
 .main_title p.top_text span{position:relative;top:-2px;display:inline-block;margin-left:5px;width:80px;height:4px;background:rgba(237,35,159,0.6);filter:blur(4px);-o-filter:blur(4px);-ms-filter:blur(4px);-moz-filter:blur(4px);-webkit-filter:blur(4px);border-radius:5px}.main_title h2{font-size:42px;font-weight:700;margin-bottom:0px;line-height:52px;text-transform:capitalize}@media (max-width: 767px){.main_title h2{font-size:30px;line-height:34px}}@media (max-width: 991px){.main_title h2 br{display:none}}.gradient-bg,.primary_btn2:before,.navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link,
@@ -30,7 +30,7 @@ button.primary_btn{border:0}.mt-25{margin-top:25px}.p0{padding-left:0px;padding-
     padding-top: 50px;
 }
 .col-12{
-    margin-top: 150px;
+    margin-top: 0px;
 }
 .mb-lg-0, .my-lg-0 {
     margin-top: -140px;
@@ -56,10 +56,10 @@ button.primary_btn{border:0}.mt-25{margin-top:25px}.p0{padding-left:0px;padding-
     margin-left: 5px;
 }
 footer.footer_area {
-    margin-top: 100px;
+    margin-top: 30px;
 }
 .tab-content{
-    margin-top: 80px;
+
 }
 .text-lab{
     font-family: "Roboto", sans-serif;
@@ -67,11 +67,12 @@ footer.footer_area {
     font-weight: bold;
     color: #117a8b;
     text-align: center;
-    margin-bottom: 50px;
-    margin-top: -30px;
+    margin-bottom: 30px;
+
+
 }
 .noi-dung{
-    padding-top: 200px;
+    padding-top: 120px;
 }
 /*PHẦN TAB*/
 section#Lab .group-tabs .tab-top{
@@ -101,17 +102,16 @@ section#Lab .group-tabs .tab-content p{
 }
 .nav-tabs .nav-link{
     border-color: transparent transparent #f3f3f3;
-    border-bottom: 3px solid #0c5460;
+
 }
 .nav-tabs .nav-item a{
     font-size: 16px;
-    font-weight: bold;
-    color: black;
 
 
 }
 .nav-tabs{
     margin-bottom: 5px;
+
 }
 .table thead th {
     border: 1px solid silver;

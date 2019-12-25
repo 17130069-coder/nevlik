@@ -45,7 +45,8 @@
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav">
 							<li class="nav-item"><a class="nav-link" href="index.html" style="color: white">Home</a></li>
-							<li class="nav-item"><a class="nav-link" href="lab1.html" style="color: white">Labs</a></li>
+							<li class="nav-item"><a class="nav-link" href="lab1.html" style="color: white">Exercise</a></li>
+							<li class="nav-item"><a class="nav-link" href="result.html" style="color: white">Result</a></li>
 							<li class="nav-item"><a class="nav-link" href="about.html" style="color: white">About</a></li>
 							<li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
 
@@ -58,17 +59,17 @@
 	<!--================ End Header Area =================-->
 
 	<!-- ================ contact section start ================= -->
-	<section class="section-margin">
+	<section class="section-margin" style="padding-top: 250px;">
 		<div class="container">
 
 			<div class="row">
-				<div class="col-12">
+				<div class="col-12" style="position: relative;top: -130px;">
 					<h2 class="contact-title">Get in Touch</h2>
 				</div>
 				<div class="col-lg-8 mb-4 mb-lg-0">
-					<form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
-						<div class="row">
-							<div class="col-12">
+					<form class="form-contact contact_form" method="post" id="contactForm" novalidate="novalidate">
+						<div class="row ">
+							<div class="col-12 ">
 								<div class="form-group">
 									<textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" placeholder="Enter Message"></textarea>
 								</div>
@@ -90,7 +91,7 @@
 							</div>
 						</div>
 						<div class="form-group mt-lg-3 button-send">
-							<button type="submit" class="primary_btn button-contactForm">Send Message</button>
+							<button type="submit" class="primary_btn button-contactForm" href="#">Send Message</button>
 						</div>
 					</form>
 
@@ -175,15 +176,33 @@
 
 
 	<!--================Footer Area =================-->
-	<footer class="footer_area">
+	<footer class="footer_area" >
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-12">
+					<div class="footer_top flex-column">
+						<div class="footer_logo">
+							<a href="#">
+							</a>
+							<div class="d-lg-block d-none">
+								<nav class="navbar navbar-expand-lg navbar-light justify-content-center">
+									<div class="collapse navbar-collapse offset">
+										<ul class="nav navbar-nav menu_nav mx-auto">
+											<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+											<li class="nav-item"><a class="nav-link" href="lab1.html">Exercise</a></li>
+											<li class="nav-item"><a class="nav-link" href="result.html">Result</a></li>
+											<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+											<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+										</ul>
+									</div>
+								</nav>
+							</div>
+						</div>
 						<div class="footer_social mt-lg-0 mt-4">
-							<a href="https://www.facebook.com/profile.php?id=100011611995243"><i class="fab fa-facebook-f"></i></a>
+							<a href="#"><i class="fab fa-facebook-f"></i></a>
 							<a href="#"><i class="fab fa-twitter"></i></a>
 							<a href="#"><i class="fab fa-skype"></i></a>
-							<a href="https://www.pinterest.com/hieu28031999/"><i class="fab fa-pinterest-p"></i></a>
+							<a href="#"><i class="fab fa-pinterest-p"></i></a>
 						</div>
 					</div>
 				</div>
@@ -191,9 +210,8 @@
 			<div class="row footer_bottom justify-content-center">
 				<p class="col-lg-8 col-sm-12 footer-text">
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());
-				</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Nevlik</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+					Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
 			</div>
 		</div>
 	</footer>
